@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+
+    text-align: center;
+    background-image: url(C:\Users\muthu\Music\databasedevelopment\user\src\assets\leaf.avif); /* Adjust the path to your image */
+    background-size:cover;
+    
+    background-repeat: no-repeat;
+    color: #130404;
+    background-color: rgba(255, 255, 255, 0.8); /* Add transparency */
+    
+    box-shadow: 0 4px 8px rgba(242, 240, 240, 0.886); /* Add some shadow */
+}
+
+h3 {
+    font-size: 24px; /* Larger font size */
+    font-weight: 700; /* Bolder font */
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px dashed #c6c1c1;
+    color: #d3d1da;
+}
+
+.btn {
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #d80202;
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+.btn:hover {
+    background-color: #2be00b;
+    transition: background-color 0.3s;
+}
+
+.green {
+    background-color: #0202d8;
+}
+
+.blue {
+    background-color: #058ae2;
+}
+
+.input-search input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: border-color 0.3s; /* Smooth focus effect */
+}
+
+.input-search input:focus {
+    border-color: #058ae2;
+    
+}
+
+.input-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    cursor: pointer;
+    margin-top: 20px; /* Add some margin */
+    
+}
+
+.table th, .table td {
+    border: 0.5px solid #ddd;
+    padding: 10px;
+}
+
+.table th {
+    background-color: rgba(241, 236, 236, 0.8); /* Add transparency */
+    font-weight: bold; /* Make headers bold */
+}
+
+.table tr {
+    background-color: rgba(242, 242, 242, 0.8); /* Add transparency */
+}
+
+.table tr:hover {
+    background-color: rgba(221, 221, 221, 0.8); /* Add transparency */
+}
